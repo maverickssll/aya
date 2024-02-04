@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title>i love you so much aya</title>
+		<link rel="stylesheet" type="text/css" href="./css/format.css">
+	</head>
+
+	<body style="margin:0px">
+		<audio autoplay loop>
+			<source src="music/music.mp3" type="audio/mpeg">
+			Your browser does not support the audio.
+		</audio>
+		<canvas></canvas>
+		<div id="imgTxt">
+			<span id="Txt"></span> <br />
+			<span id="tmp"></span>
+			<img id="img" src="">
+		</div>
+		<div id="heartTxt">
+			<a id="clickMe" href="https://sukki.vercel.app" target="_blank">Click!</a>
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+		</div>
+		<div id="content">
+			<h2 id="together">We have been together</h2>
+			<div id="timer">
+				<b id="d"></b> Days 
+				<b id="h"></b> Hours
+				<b id="m"></b> Minutes
+				<b id="s"></b> Seconds
+			</div>
+		</div>
+
+    	<div id = "typeDiv">
+        	<span id="txt1"></span> <br />
+        	<span id="txt2"></span>
+    	</div>		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+			var imageArray = ["pic/pic1.png", "pic/pic2.png", "pic/pic3.png", "pic/pic4.png", "pic/pic5.png", "pic/pic6.png", 
+			"pic/pic7.png", "pic/pic8.png", "pic/pic9.png", "pic/pic10.png", "pic/pic11.png", "pic/pic12.png"];
+			var imageIndex = 0;
+			var txtArray = ["dear aya or should i call you suki , anyways", "Our love is a rare bloom in life's garden, its fragrance shaping the beauty of our shared days", "A symphony of laughter and dreams, our love story weaves melodies that resonate in the harmonies of unwavering support",
+			"Our love is a timeless thread in the tapestry of time, creating a masterpiece through moments of joy and shared existence", "Written on the pages of my heart, your love is poetry, each verse an ode to the beauty you bring into my world", "Your love, a gentle breeze, caresses my soul, bringing peace and serenity to the canvas of life", "In the cosmic dance of fate, our hearts waltz to a rhythm that transcends space and time, creating a dance of love only they can hear", "A lighthouse in stormy seas, your love guides my ship, providing safety, warmth, and a beacon of hope",
+			"Like stars in the night sky, your love illuminates the dark corners of my soul, bringing light and clarity to the mysteries within", "In the grand gallery of emotions, our love is the masterpiece that captivates every gaze, reflected in the exquisite artwork of your eyes", "i truly love you and i hope you loved my words, my litlle gift for you, i wish i had more time to make somthing better", "anyways BABE clicki 3la l world: click raha kayna fu9 l heart , it will redirect you to the final animation that it tooke me a wad of coding it using our favorit colors <3"];
+			 var len = imageArray.length;
+			var t = 0;
+		</script>
+		
+		<script type="text/javascript" src="./js/stars.js"></script>
+		<script type="text/javascript" src="./js/typeWriter.js"></script>
+		<script type="text/javascript" src="./js/date.js"></script>
+		<script type="text/javascript" src="./js/playImg.js"></script>
+	</body>
+</html>
